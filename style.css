@@ -88,6 +88,11 @@ input, textarea, button[type=submit] {
     margin-bottom: 1em;
 }
 
+.form-control:focus {
+    box-shadow: 0 0 0;
+    border-color: #ced4da;
+}
+
 .clear {
     clear: both;
 }
