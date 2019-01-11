@@ -1339,6 +1339,7 @@ input, textarea, button[type=submit] {
     text-align: center;
     background-repeat: no-repeat;
     font-size: 16px;
+    z-index: 9;
 }
 
 .down-arrow {
