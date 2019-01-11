@@ -1058,6 +1058,11 @@ input, textarea, button[type=submit] {
     border-color: #774dc1;
 }
 
+.brands .button.boxed-btn:hover {
+    color: #fff;
+    background-color: #5f25c5;
+}
+
 /* Navigatin Style 2 */
 .navigation-wrap.nav-s2 {
     background-color: #fff;
