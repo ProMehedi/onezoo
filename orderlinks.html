@@ -147,7 +147,15 @@
 						</a>
 					</div>
 				</div>
-				<div class="mobile-menu supplier"></div>
+				<div class="mobile-menu"></div>
+			</div>
+			<!-- End of Mobile Navigation -->
+
+			<!-- ============= language start ============= -->
+			<div class="language">
+				<div id="google_translate_element"></div>
+			</div>
+			<!-- ============= language end ============= -->
 			</div>
 			<!-- End of Mobile Navigation -->
 		</div>
@@ -155,46 +163,33 @@
 	<!-- End of Navigation Area -->
 
 	<!-- Hero Area -->
-	<section class="hero-wrap supplier animation bg">
-		<div class="content-table">
-			<div class="content-table-cell">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-md-6 wow fadeInLeft" data-wow-delay="0.3s" data-wow-offset="100">
-							<div class="content-table">
-								<div class="content-table-cell">
-									<div class="hero-inner">
-										<img src="assets/img/icons/one.png" alt="">
-                                        <div class="orderlink-logo">
-                                            <img src="assets/img/Orderlinks-logo.png" alt="">
-                                        </div>
-                                        <p class="lead">Personalise and simplify your ordering process</p>
-										<p>Give your customers a beautiful interface to order on while streamlining your order process, linking your orders directly to your accounting platforms, CRM, Distribution Network and more.</p>
-										<div class="group-button supplier">
-											<a href="//onezoo.com.au/login" class="button supplier boxed-btn">Get started</a>
-											<a href="//player.vimeo.com/video/181458063" class="button supplier play-video">Watch video</a>
-										</div>
-									</div>
-								</div>
-							</div>
+	<section class="hero-wrap animation supplier bg">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 wow fadeInLeft animated" data-wow-delay="0.2s" data-wow-offset="100" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                    <div class="hero-inner">
+						<img src="assets/img/icons/one.png" alt="">
+						<div class="orderlink-logo">
+							<img src="assets/img/Orderlinks-logo.png" alt="">
 						</div>
-		
-						<div class="col-md-6 text-right wow fadeInRight" data-wow-delay="0.3s" data-wow-offset="100">
-							<div class="content-table">
-								<div class="content-table-cell">
-									<div class="hero-img">
-                                        <img src="assets/img/laptop.png" alt="">
-									</div>
-								</div>
-							</div>
+						<p class="lead">Personalise and simplify your ordering process</p>
+						<p>Give your customers a beautiful interface to order on while streamlining your order process, linking your orders directly to your accounting platforms, CRM, Distribution Network and more.</p>
+						<div class="group-button supplier">
+							<a href="//onezoo.com.au/login" class="button supplier boxed-btn">Get started</a>
+							<a href="//player.vimeo.com/video/181458063" class="button supplier play-video">Watch video</a>
 						</div>
-					</div>
-				</div>
-			</div>
-		</div>		
-		<a href="#how_work" class="down-arrow-click"><div class="down-arrow bounce"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-img wow fadeInRight animated" data-wow-delay="0.2s" data-wow-offset="100" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInRight;">
+			<img src="assets/img/laptop.png" alt="">
+        </div>
+
+		<a href="#how_work" class="down-arrow-click bounce"><div class="down-arrow"></div></a>
 	</section>
-    <!-- End of Hero Area -->
+	<!-- End of Hero Area -->
 
 	<!-- How Work Area -->
 	<section class="section-margin section-padding how-work-wrap supplier-work" id="how_work">
@@ -506,5 +501,12 @@
 	<script type="text/javascript" src="assets/js/send-mail.js"></script>
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<!-- Google Translator -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

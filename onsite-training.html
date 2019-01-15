@@ -23,6 +23,43 @@
 </head>
 <body>
 
+	<!-- Popup Contact US -->
+	<div class="modal fade" id="popupContact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+				<h5 class="modal-title" id="exampleModalCenterTitle">Contact Us</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				</div>
+				<div class="modal-body">
+					<form action="#">
+						<div class="form-group">
+							<label for="username">User Name:</label> 
+							<input id="username" name="username" placeholder="Username" type="text" class="form-control here">
+						</div>
+						<div class="form-group">
+							<label for="company">Company Name:</label> 
+							<input id="company" name="company" placeholder="Company Name" type="text" class="form-control here">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label> 
+							<textarea id="message" name="office" placeholder="Your Message.." class="form-control here"></textarea>
+						</div>
+						<div class="form-group">
+							<button name="submit" type="submit" class="button groups boxed-btn btn-block">Submit</button>
+						</div>
+					</form>
+				</div>
+				<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close <i class="fa fa-close"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End of Popup Get Started -->
+
 	<div class="search-overlay"></div>
 			
 	<div id="search_content" class="search-content">
@@ -178,6 +215,12 @@
 				<div class="mobile-menu"></div>
 			</div>
 			<!-- End of Mobile Navigation -->
+
+			<!-- ============= language start ============= -->
+			<div class="language">
+				<div id="google_translate_element"></div>
+			</div>
+			<!-- ============= language end ============= -->
 		</div>
 	</nav>
 	<!-- End of Navigation Area -->
@@ -191,7 +234,7 @@
                         <h1>Have A ONEzoo Team Member Come To You</h1>
                         <p>ONEzoo has a dedicated support team to help on-boarding, troubleshooting and more. We help businesses big and small get on board ONEzoo. No matter if you're a customer, supplier group or brand we are here to help.</p>
                         <div class="group-button">
-                            <a href="#" class="button boxed-btn">Contact US</a>
+                            <a href="#" class="button boxed-btn" data-toggle="modal" data-target="#popupContact">Contact US</a>
                         </div>
                     </div>
                 </div>
@@ -274,7 +317,7 @@
                 <div class="col-md-12 wow fadeInUp" data-wow-offset="100">
                     <h1>Ready to have a member come help?</h1>
                     <p>ONEzoo is committed to both sides of the transaction, we want the best experience for the seller and the purchaser alike.</p>
-                    <a class="button" href="#">Contact US</a>
+                    <a class="button" href="#" data-toggle="modal" data-target="#popupContact">Contact US</a>
                 </div>
             </div>
         </div>
@@ -386,5 +429,12 @@
 	<script type="text/javascript" src="assets/js/send-mail.js"></script>
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<!-- Google Translator -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

@@ -416,6 +416,14 @@ input, textarea, button[type=submit] {
     display: block;
 }
 
+.header-wrap.empty-navigation > .container-fluid {
+    position: relative;
+}
+
+.header-wrap.empty-navigation > .container-fluid .language {
+    margin-top: 15px;
+}
+
 .logo {
     margin: 5px 0;
     position: relative;
@@ -1369,7 +1377,7 @@ input, textarea, button[type=submit] {
 .icon--search {
     display: inline-block;
     overflow: auto;
-    width: 35px;
+    width: 23px;
     height: 35px;
     color: #fff;
     fill: currentColor;

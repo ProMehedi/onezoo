@@ -178,6 +178,12 @@
 				<div class="mobile-menu"></div>
 			</div>
 			<!-- End of Mobile Navigation -->
+
+			<!-- ============= language start ============= -->
+			<div class="language">
+				<div id="google_translate_element"></div>
+			</div>
+			<!-- ============= language end ============= -->
 		</div>
 	</nav>
 	<!-- End of Navigation Area -->
@@ -241,6 +247,9 @@
     <!-- Examples Section -->
 	<section class="our-clients">
 		<div class="container-fluid">
+			<div class="col-md-12 wow fadeInUp animated text-center">
+				<h1 class="section-title">We look after business’ big and small</h1>
+			</div>
 			<div class="row align-items-center text-center">
 				<div class="col-lg-2 col-md-4 col-sm-6 col-6">
 					<a href="#" class="client-logo">
@@ -291,9 +300,16 @@
                                         <div class="how-content mr-6">
                                             <h2>Compliance is Key</h2>
                                             <p>We comply with and exceed industry standards when it comes to security.
-                                                Credit Cards and high-level data is secured in <span class="trigger">PCI Compliant Servers
-												<span class="my-tooltip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium expedita exercitationem consectetur dignissimos. Quasi.</span></span>, which has 12 levels of requirements to ensure information is protected. Your data is tokenised and stored in <span class="trigger">256-bit encryption
-												<span class="my-tooltip">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae laudantium expedita exercitationem consectetur dignissimos. Quasi.</span></span>. We utilise load balanced servers which spread the work across multiple servers in peak times, ensuring best performance 24/7. We have servers located across Australia to ensure we can offer the closest server to your business. <br>We have dedicated server management consultants who regularly perform stress tests and ensure we are running the latest security and server patches.</p>
+                                                Credit Cards and high-level data is secured in 
+												<span class="trigger">PCI
+													<span class="my-tooltip">The Payment Card Industry Data Security Standard (PCI DSS) is a set of security standards designed to ensure that ALL companies that accept, process, store or transmit credit card information maintain a secure environment.
+													</span>
+												</span>
+												Compliant Servers, which has 12 levels of requirements to ensure information is protected. Your data is tokenised and stored in 
+												<span class="trigger">256
+													<span class="my-tooltip">Text - 256-bit encryption refers to the length of the encryption key used to encrypt a data stream or file. A hacker or cracker will require 2<sup>256</sup> different combinations to break a 256-bit encrypted message, which is virtually impossible to be broken by even the fastest computers.
+													</span>
+												</span>-bit encryption. We utilise load balanced servers which spread the work across multiple servers in peak times, ensuring best performance 24/7. We have servers located across Australia to ensure we can offer the closest server to your business. <br>We have dedicated server management consultants who regularly perform stress tests and ensure we are running the latest security and server patches.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -422,5 +438,12 @@
 	<script type="text/javascript" src="assets/js/send-mail.js"></script>
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<!-- Google Translator -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

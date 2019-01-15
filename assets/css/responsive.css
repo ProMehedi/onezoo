@@ -95,9 +95,21 @@ Large LAYOUT
     .margin-right, .listimg {
         width: 28%;
     }
+    .listtext {
+        font-size: 90%;
+    }
     
-    .list.margin-top {
-        margin-top: 50px;
+    .listtext h5 {
+        font-size: 20px;
+    }
+    
+    .listtext h3 {
+        font-size: 28px;
+    }
+    
+    .list+.list {
+        margin-bottom: 25px;
+        margin-top: 70px;
     }
     .hero-wrap.simple-hero .hero-inner {
         padding-left: 40px;
@@ -378,6 +390,10 @@ MEDIAM LAYOUT : 1280px.
 
 @media only screen and (max-width: 992px){ 
 
+    .language {
+        right: 0;
+    }
+
     .our-clients .clients-title {
         font-size: 40px;
         margin-bottom: 30px;
@@ -529,10 +545,6 @@ MEDIAM LAYOUT : 1280px.
     .hero-wrap.apps-hero {
         padding: 150px 0;
     }
-    
-    .apps-hero .hero-inner {
-        max-width: 450px;
-    }
 
     .apps-hero .hero-inner h1 {
         font-size: 50px;
@@ -563,6 +575,10 @@ SMALL MOBILE LAYOUT : 320px.
     }
 }
 @media only screen and (max-width: 767px) {
+
+    .hero-wrap.single-hero {
+        padding-bottom: 0;
+    }
     
     .our-clients .clients-title {
         font-size: 30px;
@@ -827,7 +843,7 @@ SMALL MOBILE LAYOUT : 320px.
         padding: 20px 0;
     }
 
-    .group-button img {width: 70%;}
+    .group-button img {width: auto;}
 
     /* Zoo Page */
     .single-how-inner .absulate-img {
@@ -1131,7 +1147,7 @@ Tablet LAYOUT: 768px.
     }
 
     .group-button img {
-        width: 48%;
+        /* width: 48%; */
         margin-right: 10px;
     }
     
@@ -1160,7 +1176,7 @@ Tablet LAYOUT: 768px.
 @media only screen and (max-width: 767px){
 
     .apps-hero .hero-inner {
-        max-width: 250px;
+        max-width: 100%;
     }
 
     .single-how h1 {

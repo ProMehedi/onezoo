@@ -213,6 +213,12 @@
 				<div class="mobile-menu"></div>
 			</div>
 			<!-- End of Mobile Navigation -->
+
+			<!-- ============= language start ============= -->
+			<div class="language">
+				<div id="google_translate_element"></div>
+			</div>
+			<!-- ============= language end ============= -->
 		</div>
 	</nav>
 	<!-- End of Navigation Area -->
@@ -230,7 +236,7 @@
 									This may not be available to your existing suppliers, if it’s not available and you want it on, let us know and we'll contact them.
 								</span>
 							</span>
-                            and pay your own way with no credit card fees and most importantly connect with your suppliers by ONEzoo <span class="trigger">Chat
+                            and pay your own way with no credit card fees and most importantly connect with your suppliers by ONEzoo <span class="trigger">chat
 								<span class="my-tooltip">ONEzoo Chat allows you to connect to your supplier in real time. If the supplier is unavailable we will send them emails to get back in contact with you asap. Make sure you have your notifications on in the settings to get alerts when they reply.</span>
 							</span>
                             to negotiate the best price for your business. If you want a hand getting set up, get in <span class="contact-hover">contact 
@@ -354,7 +360,9 @@
 				<div class="col-lg-4 col-sm-6">
 					<div class="single-service-s2">
 						<img src="assets/img/icons/cart.png" alt="Cart Icon">
-						<p>ORDER easily with no hassle and chat(hover: chat) with suppliers to get answers fast</p>
+						<p>ORDER easily with no hassle and <span class="trigger">chat
+							<span class="my-tooltip">ONEzoo Chat allows you to connect to your supplier in real time. If the supplier is unavailable we will send them emails to get back in contact with you asap. Make sure you have your notifications on in the settings to get alerts when they reply.</span>
+						</span> with suppliers to get answers fast</p>
 					</div>
 				</div>
 
@@ -702,5 +710,12 @@
 	<script type="text/javascript" src="assets/js/send-mail.js"></script>
 	<!-- Custom Scripts -->
 	<script type="text/javascript" src="assets/js/scripts.js"></script>
+	<!-- Google Translator -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+		  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+		}
+	</script>
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>
